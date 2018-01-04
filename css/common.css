@@ -1,0 +1,164 @@
+*{margin:0;}
+
+body{
+	/* background: radial-gradient(at top left,#0ABA2E, #20A2E3); */
+	 background: url(../img/background.jpg);
+}
+/*
+ li{ 
+	 display: inline; 
+	 margin:10px; 
+	 font-size:20px; 
+	 color:#083E04; 
+ } 
+.menu{
+	background:#FDFD00;
+	height:30px;
+	margin:auto;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin-left:30%;
+}*/
+
+.text{
+	margin-top:30px;
+	margin-left:25%;
+	margin-right:25%;
+	background:#7EE2EB;
+	height:1500px;
+	font-size:30px;
+}
+
+.overflow{
+	overflow:auto; /*хочу сделать прозрачным*/
+	width:200px;
+	margin:30px 50px;
+	background:#D35621;
+	color:#FDA400;
+	height:300px;
+	float:left;
+}
+
+
+}
+
+}
+.logo{
+	/*width:100px;
+	height:70px;
+	background:#f00;*/
+	float:left;
+	display:inline;
+}
+
+.contact{
+	width:100px;
+	float:right;
+}
+
+
+.reklama{
+	height:300px;
+	width:200px;
+	background:#ff0;
+	margin:30px 50px;
+}
+
+.left{
+	float:left;
+}
+.img{
+	display:inline;
+}
+
+#banner{
+	margin:0 50px;
+}
+
+#cont{
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+ol,ul { list-style: none; }
+
+.main-ul{
+	margin-right:3%;
+}
+
+.main-ul li {
+ text-align:center;
+ float:left;
+ width:20%;
+ position:relative;
+ margin-bottom:10px;
+ background:#0f0;
+ }
+
+.main-ul li a {
+ display:block;
+ padding-bottom:20px;
+ padding-right:10px;
+ padding-top:10px;
+ padding-left:10px;
+ text-decoration:none;
+ position:relative;
+ z-index: 100;
+ background-color: rgba(164, 164, 164, 0.2);
+ -webkit-transition: all 1s;
+ -moz-transition: all 1s;
+ -o-transition: all 1s;
+ transition: all 1s;
+ }
+ 
+ .main-ul li a span{
+ display:block;
+ padding-top:10px;
+ font-weight:700;
+ font-size: 20px;
+ color: rgba(120, 120, 120, 0.9);
+ text-transform:uppercase;
+ font-family: 'Kotta One', serif;
+ }
+.main-ul li:hover span{
+ color: #fff;
+}
+
+.main-ul li:nth-child(1):hover a{
+ background-color: rgba(175,54,55,0.8);
+ -moz-transform: rotate(-3deg);
+ -webkit-transform: rotate(-3deg);
+ -o-transform: rotate(-3deg);
+ transform: rotate(-3deg);
+ background:#ff0;
+}
+
+.main-ul li:nth-child(2):hover a{
+ background-color: rgba(199, 204, 73, 0.8);
+ -moz-transform: rotate(-3deg);
+ -webkit-transform: rotate(-3deg);
+ -o-transform: rotate(-3deg);
+ transform: rotate(-3deg);
+}
+.main-ul li:nth-child(3):hover a{
+ background-color: rgba(213, 135, 11, 0.8);
+ -moz-transform: rotate(3deg);
+ -webkit-transform: rotate(3deg);
+ -o-transform: rotate(3deg);
+ transform: rotate(3deg);
+}
+.main-ul li:nth-child(4):hover a{
+ background-color: rgba(51, 143, 144, 0.8);
+ -moz-transform: rotate(3deg);
+ -webkit-transform: rotate(3deg);
+ -o-transform: rotate(3deg);
+ transform: rotate(3deg);
+}
+.main-ul li:nth-child(5):hover a{
+ background-color: rgba(117,18,98,0.8);
+ -moz-transform: rotate(-3deg);
+ -webkit-transform: rotate(-3deg);
+ -o-transform: rotate(-3deg);
+ transform: rotate(-3deg);
+}
