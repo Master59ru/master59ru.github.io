@@ -75,7 +75,7 @@ ul{
 }
 
 #banner{
-	margin:0 50px;
+	margin:0 3%;
 }
 
 #cont{
@@ -162,3 +162,21 @@ ol,ul { list-style: none; }
  -o-transform: rotate(-3deg);
  transform: rotate(-3deg);
 }
+
+#foot{
+	background:#19191a;
+}
+
+#footer{
+	margin:auto;
+}
+
+#copy{
+	color:#696969;
+	margin:auto;
+}
+
+table td{
+	margin:2%;
+}
+	
