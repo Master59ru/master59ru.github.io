@@ -27,23 +27,26 @@ ul{
 	margin-top:30px;
 	margin-left:25%;
 	margin-right:25%;
+	text-align:justify;
 	background:#7EE2EB;
-	height:1500px;
 	font-size:30px;
+	padding:10px;
 }
-
-.overflow{
-	overflow:auto; /*хочу сделать прозрачным*/
+.left{
+	float:left;
 	width:200px;
 	margin:30px 50px;
+
+}
+.overflow{
+	overflow:auto;
 	background:#D35621;
 	color:#FDA400;
 	height:300px;
-	float:left;
+	
 }
 
 
-}
 
 }
 .logo{
@@ -54,11 +57,9 @@ ul{
 	display:inline;
 }
 
-.contact{
-	width:100px;
-	float:right;
+#cont{
+	margin-left:3%;
 }
-
 
 .reklama{
 	height:300px;
@@ -71,7 +72,8 @@ ul{
 	float:left;
 }
 .img{
-	display:inline;
+	/* display:inline; */
+	
 }
 
 #banner{
@@ -93,7 +95,7 @@ ol,ul { list-style: none; }
  width:20%;
  position:relative;
  margin-bottom:10px;
- background:#0f0;
+ background:#2EFEF7;
  }
 
 .main-ul li a {
@@ -117,7 +119,7 @@ ol,ul { list-style: none; }
  padding-top:10px;
  font-weight:700;
  font-size: 20px;
- color: rgba(120, 120, 120, 0.9);
+ /* color: rgba(120, 120, 120, 0.9); */
  text-transform:uppercase;
  font-family: 'Kotta One', serif;
  }
@@ -135,28 +137,28 @@ ol,ul { list-style: none; }
 }
 
 .main-ul li:nth-child(2):hover a{
- background-color: rgba(199, 204, 73, 0.8);
+ background-color:#000080 /*rgba(199, 204, 73, 0.8)*/;
  -moz-transform: rotate(-3deg);
  -webkit-transform: rotate(-3deg);
  -o-transform: rotate(-3deg);
  transform: rotate(-3deg);
 }
 .main-ul li:nth-child(3):hover a{
- background-color: rgba(213, 135, 11, 0.8);
+ background-color:#00FF00/*rgba(213, 135, 11, 0.8)*/;
  -moz-transform: rotate(3deg);
  -webkit-transform: rotate(3deg);
  -o-transform: rotate(3deg);
  transform: rotate(3deg);
 }
 .main-ul li:nth-child(4):hover a{
- background-color: rgba(51, 143, 144, 0.8);
+ background-color:#FF00FF	 /*rgba(51, 143, 144, 0.8)*/;
  -moz-transform: rotate(3deg);
  -webkit-transform: rotate(3deg);
  -o-transform: rotate(3deg);
  transform: rotate(3deg);
 }
 .main-ul li:nth-child(5):hover a{
- background-color: rgba(117,18,98,0.8);
+ background-color:#FF0000 /*rgba(117,18,98,0.8)*/;
  -moz-transform: rotate(-3deg);
  -webkit-transform: rotate(-3deg);
  -o-transform: rotate(-3deg);
@@ -173,10 +175,49 @@ ol,ul { list-style: none; }
 
 #copy{
 	color:#696969;
-	margin:auto;
 }
 
 table td{
 	margin:2%;
 }
-	
+
+span.active{
+	color:red;
+}
+
+.def{
+ color:#787878;	
+}
+
+#slot1{
+	width:200px;
+	margin-top:50%;
+}
+
+#youtube1{
+	margin-top:50%;
+}
+
+#dolly{
+
+
+}
+
+#dol{
+	color: #808000;
+	font-size:1.5em;
+	font-family: 'Kotta One', serif;
+	text-decoration:none;
+	margin-left:20%;
+	background:#FFD700;
+}
+
+#piar{
+	margin-top:50%;
+}
+
+.right{
+	float:right;
+	width:200px;
+	margin:30px 50px;
+}
